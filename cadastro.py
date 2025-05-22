@@ -1,0 +1,10 @@
+print('CADASTRO')
+Nome=input('Nome: ')
+Email=input('Email: ')
+Senha=input('Senha: ')
+print("                 ")
+
+print("Cadrastrado")
+print(f'nome:{Nome}')
+print(f'email:{Email}')
+print(f'senha:{Senha}')

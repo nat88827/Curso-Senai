@@ -1,7 +1,11 @@
 
+filmes = []
 quantidades=int(input('Quantos filmes? '))
 contador=1
 while contador<=quantidades:
-    filmes=input(f"Digite o nome do filme {contador}: ")
+    nome=input(f"Digite o nome dos filmes {contador}: ")   
     contador=contador+1
-    print[filmes]
+    filmes.append(nome)
+
+print(filmes)
+    
